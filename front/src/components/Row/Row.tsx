@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import axios from "../axios";
+import axios from "../../axios";
 import "./Row.scss";
 
 type Props = {
@@ -30,8 +30,6 @@ export const Row = ({ title, fetchUrl, isLargeRow }: Props) => {
     };
     fetchData();
   }, [fetchUrl]);
-
-  console.log(movies);
 
   return (
     <>
