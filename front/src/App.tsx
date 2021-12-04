@@ -1,11 +1,13 @@
 import "./App.css";
 import { Row } from "./components/Row/Row";
 import { Banner } from "./components/Banner/Banner";
+import { Nav } from "./components/Nav/Nav";
 import { requests } from "../src/request";
 
 export const App = () => {
   return (
     <div className="App">
+      <Nav />
       <Banner />
       <Row
         title="NETFLIX ORIGINALS"
