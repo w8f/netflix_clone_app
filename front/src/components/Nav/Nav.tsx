@@ -1,18 +1,8 @@
-import { useState, useEffect } from "react";
+import useNav, { Props } from "./useNav";
 import "./Nav.scss";
 
-type Props = {
-  className?: string;
-};
-
 export const Nav = (props: Props) => {
-  const [show, setShow] = useState(false);
-  useEffect(() => {
-    const handleShow = () => setShow(window.scrollY > 100);
-    window.addEventListener("scroll", handleShow);
-    return () => window.removeEventListener("scroll", handleShow);
-  }, []);
-
+  const { show } = useNav();
   return (
     <div className={`Nav ${show && "Nav-black"}`}>
       <img
