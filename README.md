@@ -22,6 +22,10 @@ npx create-react-app front --template typescript
 
 # axios install
 npm i axios
+
+npm i movie-trailer
+
+npm i react-youtube
 ```
 
 - TMDB のアカウント登録、API キーの発行を行う。\
