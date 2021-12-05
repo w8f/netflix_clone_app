@@ -5,6 +5,9 @@ React×TypeScript, TMDB API を用いた Netflix のクローンアプリ。
 参考記事\
 <https://zenn.dev/gunners6518/books/4c4672f32dd100>
 
+成果物\
+<https://netflix-clone-app-psi.vercel.app/>
+
 ---
 
 - [Netflix Clone App](#netflix-clone-app)
